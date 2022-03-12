@@ -10,7 +10,6 @@ from PIL import Image, ImageDraw
 # from PyQt5.Qt import *
 from PyQt5.QtWidgets import QApplication, QMainWindow,QFileDialog,QLineEdit,QMessageBox, QWidget,QTableWidgetItem
 from PyQt5.QtGui import QImage, QPixmap
-from sklearn.utils import resample
 from UI_MainWindow import Ui_ImageTools
 
 class StartWindow(QMainWindow, Ui_ImageTools):
@@ -137,9 +136,11 @@ class StartWindow(QMainWindow, Ui_ImageTools):
                 length=len(paths)
 
                 if(i<=0):i+=length
+                
+                path=paths[(i-1)%length]
 
-                window.setPixmap(QPixmap(paths[(i-1)%length]))
-
+                window.setPixmap(QPixmap(path))
+                self.status_message(decode_file_name(path))
                 self.current_index=i%(length+1)
 
     def crop_preview(self):

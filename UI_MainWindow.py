@@ -901,20 +901,20 @@ class Ui_ImageTools(object):
         self.resamplePath.setStyleSheet("color: rgb(255, 255, 255);")
         self.resamplePath.setText("")
         self.resamplePath.setObjectName("resamplePath")
-        self.resampleFolederButton = QtWidgets.QPushButton(self.imageResample)
-        self.resampleFolederButton.setGeometry(QtCore.QRect(400, 69, 75, 40))
+        self.resampleFolderButton = QtWidgets.QPushButton(self.imageResample)
+        self.resampleFolderButton.setGeometry(QtCore.QRect(400, 69, 75, 40))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.resampleFolederButton.sizePolicy().hasHeightForWidth())
-        self.resampleFolederButton.setSizePolicy(sizePolicy)
-        self.resampleFolederButton.setMinimumSize(QtCore.QSize(70, 40))
+        sizePolicy.setHeightForWidth(self.resampleFolderButton.sizePolicy().hasHeightForWidth())
+        self.resampleFolderButton.setSizePolicy(sizePolicy)
+        self.resampleFolderButton.setMinimumSize(QtCore.QSize(70, 40))
         font = QtGui.QFont()
         font.setFamily("Microsoft YaHei")
         font.setPointSize(10)
-        self.resampleFolederButton.setFont(font)
-        self.resampleFolederButton.setStyleSheet("color: rgb(255, 255, 255);")
-        self.resampleFolederButton.setObjectName("resampleFolederButton")
+        self.resampleFolderButton.setFont(font)
+        self.resampleFolderButton.setStyleSheet("color: rgb(255, 255, 255);")
+        self.resampleFolderButton.setObjectName("resampleFolderButton")
         self.scaleFactor = QtWidgets.QLineEdit(self.imageResample)
         self.scaleFactor.setGeometry(QtCore.QRect(220, 175, 161, 40))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Fixed)
@@ -1125,7 +1125,7 @@ class Ui_ImageTools(object):
         ImageTools.setStatusBar(self.statusBar)
 
         self.retranslateUi(ImageTools)
-        self.stackedWidget.setCurrentIndex(5)
+        self.stackedWidget.setCurrentIndex(0)
         self.drawWidth.setCurrentIndex(1)
         self.resampleMode.setCurrentIndex(0)
         self.resampleAlgorithm.setCurrentIndex(0)
@@ -1143,7 +1143,21 @@ class Ui_ImageTools(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'SimSun\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; color:#ffffff;\">欢迎使用本工具箱</span></p></body></html>"))
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; color:#ffffff;\">欢迎使用本工具箱</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; color:#ffffff;\">   使用提醒：</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; color:#ffffff;\"><br /></p>\n"
+"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;\"><li style=\" font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\" style=\" margin-top:14px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16px;\">本项目只为个人使用方便，因此并未做过多数据校验与异常处理，请严格按照说明使用。</span></li>\n"
+"<li style=\" font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16px;\">选择文件时请确保是常见图像类型（.jpg .jpeg .png .bmp）</span></li>\n"
+"<li style=\" font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16px;\">选择文件夹时请确保文件夹均为图像文件</span></li>\n"
+"<li style=\" font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16px;\">保存文件均放置在本项目的workdir文件夹</span></li></ul>\n"
+"<ul style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;\"><li style=\" font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16px;\">项目启动时会自动检查该文件夹</span></li>\n"
+"<li style=\" font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16px;\">如不存在会自动建立</span></li>\n"
+"<li style=\" font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16px;\">请不要在运行过程中删除该文件夹以免保存结果失败</span></li></ul>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; color:#ffffff;\">   联系作者：</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; color:#ffffff;\">    https://github.com/COKID/ImageToolsGUI</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; color:#ffffff;\">    (如果不是严重影响运行结果的Bug不会特意修复)</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px; font-family:\'Open Sans,Clear Sans,Helvetica Neue,Helvetica,Arial,Segoe UI Emoji,sans-serif\'; font-size:16pt; color:#ffffff;\"><br /></p></body></html>"))
         self.label.setText(_translate("ImageTools", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; color:#ffffff;\">像素定位：</span></p></body></html>"))
         self.openImageButton.setText(_translate("ImageTools", "打开文件"))
         self.label_2.setText(_translate("ImageTools", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; color:#ffffff;\">图片筛选器</span></p></body></html>"))
@@ -1194,7 +1208,7 @@ class Ui_ImageTools(object):
         self.label_13.setText(_translate("ImageTools", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; color:#ffffff;\">批量绘制</span></p></body></html>"))
         self.batchDrawButton.setText(_translate("ImageTools", "选择文件夹"))
         self.batchDrawSave.setText(_translate("ImageTools", "直接保存"))
-        self.resampleFolederButton.setText(_translate("ImageTools", "选择文件夹"))
+        self.resampleFolderButton.setText(_translate("ImageTools", "选择文件夹"))
         self.label_14.setText(_translate("ImageTools", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; color:#ffffff;\">采样倍率</span></p></body></html>"))
         self.label_17.setText(_translate("ImageTools", "<html><head/><body><p align=\"center\"><span style=\" font-weight:600; color:#ffffff;\">采样模式</span></p></body></html>"))
         self.resampleMode.setItemText(0, _translate("ImageTools", "上采样"))
