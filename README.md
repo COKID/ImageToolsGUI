@@ -1,4 +1,4 @@
-ImageToolsGUI
+# ImageToolsGUI
 
 本项目是一个采用PyQt5框架，以及PIL库制作的一个可视化图像处理小工具，主要用于帮助论文制图。界面与功能如图：
 
@@ -12,13 +12,19 @@ ImageToolsGUI
 * pillow
 * PyQt5
 
+如果不想使用python框架运行，本项目也已经打包成可执行文件，请从Release下载使用
+
+其中压缩包版解压后体积更大，但是启动速度较快；单文件版体积小但是启动速度较慢，请根据自身需求选择下载。
+
 ## 运行
 
-直接运行StartWindows.py即可
+直接运行项目中的StartWindows.py即可
 
 ```
 python StartWindows.py
 ```
+
+如果使用Release中预打包的程序，则直接运行exe文件即可
 
 ## 功能使用方法
 
