@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>921</width>
-    <height>644</height>
+    <width>960</width>
+    <height>650</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,8 +18,8 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>900</width>
-    <height>600</height>
+    <width>960</width>
+    <height>650</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -406,6 +406,12 @@ p, li { white-space: pre-wrap; }
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>50</height>
+             </size>
+            </property>
             <property name="maximumSize">
              <size>
               <width>100</width>
@@ -415,7 +421,7 @@ p, li { white-space: pre-wrap; }
             <property name="font">
              <font>
               <family>Microsoft YaHei</family>
-              <pointsize>12</pointsize>
+              <pointsize>9</pointsize>
              </font>
             </property>
             <property name="styleSheet">
@@ -454,13 +460,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>1000</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="styleSheet">
@@ -481,8 +487,8 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -520,7 +526,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
              </size>
             </property>
             <property name="styleSheet">
@@ -541,8 +553,8 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -580,7 +592,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
              </size>
             </property>
             <property name="styleSheet">
@@ -595,8 +613,8 @@ p, li { white-space: pre-wrap; }
            <widget class="QPushButton" name="selectFolder3">
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -634,7 +652,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
              </size>
             </property>
             <property name="styleSheet">
@@ -649,8 +673,8 @@ p, li { white-space: pre-wrap; }
            <widget class="QPushButton" name="selectFolder4">
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -688,7 +712,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
              </size>
             </property>
             <property name="styleSheet">
@@ -703,8 +733,8 @@ p, li { white-space: pre-wrap; }
            <widget class="QPushButton" name="selectFolder5">
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -742,7 +772,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
              </size>
             </property>
             <property name="styleSheet">
@@ -757,8 +793,8 @@ p, li { white-space: pre-wrap; }
            <widget class="QPushButton" name="selectFolder6">
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -844,13 +880,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>1000</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -876,8 +912,8 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -922,13 +958,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>16777215</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -951,21 +987,21 @@ p, li { white-space: pre-wrap; }
           <item>
            <widget class="QLineEdit" name="singleCropPos">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
             <property name="minimumSize">
              <size>
-              <width>150</width>
-              <height>40</height>
+              <width>200</width>
+              <height>50</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>150</width>
-              <height>40</height>
+              <width>0</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -991,8 +1027,8 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1019,8 +1055,8 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1110,13 +1146,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>1000</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1142,8 +1178,8 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1188,13 +1224,13 @@ p, li { white-space: pre-wrap; }
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
               <width>16777215</width>
-              <height>40</height>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1217,21 +1253,21 @@ p, li { white-space: pre-wrap; }
           <item>
            <widget class="QLineEdit" name="batchCropPos">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
             <property name="minimumSize">
              <size>
-              <width>150</width>
-              <height>40</height>
+              <width>200</width>
+              <height>50</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>150</width>
-              <height>40</height>
+              <width>0</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1254,8 +1290,8 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1319,13 +1355,13 @@ p, li { white-space: pre-wrap; }
               <property name="minimumSize">
                <size>
                 <width>0</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="font">
@@ -1355,14 +1391,14 @@ p, li { white-space: pre-wrap; }
               </property>
               <property name="minimumSize">
                <size>
-                <width>100</width>
-                <height>40</height>
+                <width>200</width>
+                <height>50</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>200</width>
-                <height>40</height>
+                <width>0</width>
+                <height>50</height>
                </size>
               </property>
               <property name="font">
@@ -1393,13 +1429,13 @@ p, li { white-space: pre-wrap; }
               <property name="minimumSize">
                <size>
                 <width>0</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="font">
@@ -1514,13 +1550,13 @@ p, li { white-space: pre-wrap; }
               <property name="minimumSize">
                <size>
                 <width>0</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
                 <width>16777215</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="font">
@@ -1720,13 +1756,13 @@ p, li { white-space: pre-wrap; }
               <property name="minimumSize">
                <size>
                 <width>0</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
                 <width>1000</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="font">
@@ -1752,8 +1788,14 @@ p, li { white-space: pre-wrap; }
               </property>
               <property name="minimumSize">
                <size>
-                <width>70</width>
-                <height>40</height>
+                <width>100</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
                </size>
               </property>
               <property name="font">
@@ -1782,8 +1824,14 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1810,8 +1858,14 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1886,13 +1940,13 @@ p, li { white-space: pre-wrap; }
               <property name="minimumSize">
                <size>
                 <width>0</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
                 <width>1000</width>
-                <height>40</height>
+                <height>50</height>
                </size>
               </property>
               <property name="font">
@@ -1918,8 +1972,14 @@ p, li { white-space: pre-wrap; }
               </property>
               <property name="minimumSize">
                <size>
-                <width>70</width>
-                <height>40</height>
+                <width>100</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
                </size>
               </property>
               <property name="font">
@@ -1948,8 +2008,14 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="minimumSize">
              <size>
-              <width>70</width>
-              <height>40</height>
+              <width>100</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
              </size>
             </property>
             <property name="font">
@@ -1984,389 +2050,349 @@ p, li { white-space: pre-wrap; }
        </layout>
       </widget>
       <widget class="QWidget" name="imageResample">
-       <widget class="QLineEdit" name="resamplePath">
-        <property name="geometry">
-         <rect>
-          <x>9</x>
-          <y>69</y>
-          <width>381</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>1000</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>12</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="resampleFolderButton">
-        <property name="geometry">
-         <rect>
-          <x>400</x>
-          <y>69</y>
-          <width>75</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>70</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>Microsoft YaHei</family>
-          <pointsize>10</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string>选择文件夹</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="scaleFactor">
-        <property name="geometry">
-         <rect>
-          <x>220</x>
-          <y>175</y>
-          <width>161</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>100</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>200</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>10</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_14">
-        <property name="geometry">
-         <rect>
-          <x>138</x>
-          <y>175</y>
-          <width>76</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16777215</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>Microsoft YaHei</family>
-          <pointsize>14</pointsize>
-          <weight>3</weight>
-          <italic>false</italic>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 25 14pt &quot;Microsoft YaHei&quot;;</string>
-        </property>
-        <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;采样倍率&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_17">
-        <property name="geometry">
-         <rect>
-          <x>138</x>
-          <y>281</y>
-          <width>76</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16777215</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>Microsoft YaHei</family>
-          <pointsize>14</pointsize>
-          <weight>3</weight>
-          <italic>false</italic>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 25 14pt &quot;Microsoft YaHei&quot;;</string>
-        </property>
-        <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;采样模式&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-       </widget>
-       <widget class="QComboBox" name="resampleMode">
-        <property name="geometry">
-         <rect>
-          <x>220</x>
-          <y>281</y>
-          <width>161</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>100</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>200</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>12</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="currentIndex">
-         <number>0</number>
-        </property>
-        <item>
-         <property name="text">
-          <string>上采样</string>
-         </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0" colspan="2">
+         <widget class="QLineEdit" name="resamplePath">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>1500</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
         </item>
-        <item>
-         <property name="text">
-          <string>下采样</string>
-         </property>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="resampleFolderButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>选择文件夹</string>
+          </property>
+         </widget>
         </item>
-       </widget>
-       <widget class="QLabel" name="label_18">
-        <property name="geometry">
-         <rect>
-          <x>138</x>
-          <y>387</y>
-          <width>76</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>16777215</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>Microsoft YaHei</family>
-          <pointsize>14</pointsize>
-          <weight>3</weight>
-          <italic>false</italic>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 25 14pt &quot;Microsoft YaHei&quot;;</string>
-        </property>
-        <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;采样算法&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-        </property>
-       </widget>
-       <widget class="QComboBox" name="resampleAlgorithm">
-        <property name="geometry">
-         <rect>
-          <x>220</x>
-          <y>387</y>
-          <width>161</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>100</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>200</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>12</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="currentIndex">
-         <number>0</number>
-        </property>
-        <item>
-         <property name="text">
-          <string>双三次-BICUBIC</string>
-         </property>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_14">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>14</pointsize>
+            <weight>3</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 25 14pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;采样倍率&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
         </item>
-        <item>
-         <property name="text">
-          <string>双线性-BILINEAR</string>
-         </property>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="scaleFactor">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>300</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
         </item>
-        <item>
-         <property name="text">
-          <string>最临近-NEAREST</string>
-         </property>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_17">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>14</pointsize>
+            <weight>3</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 25 14pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;采样模式&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
         </item>
-        <item>
-         <property name="text">
-          <string>兰索斯-LANCZOS</string>
-         </property>
+        <item row="2" column="1">
+         <widget class="QComboBox" name="resampleMode">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>300</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>上采样</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>下采样</string>
+           </property>
+          </item>
+         </widget>
         </item>
-       </widget>
-       <widget class="QPushButton" name="resampleRun">
-        <property name="geometry">
-         <rect>
-          <x>300</x>
-          <y>460</y>
-          <width>75</width>
-          <height>40</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>70</width>
-          <height>40</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <family>Microsoft YaHei</family>
-          <pointsize>10</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 255, 255);</string>
-        </property>
-        <property name="text">
-         <string>运行</string>
-        </property>
-       </widget>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_18">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>14</pointsize>
+            <weight>3</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 25 14pt &quot;Microsoft YaHei&quot;;</string>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;采样算法&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QComboBox" name="resampleAlgorithm">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>300</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>0</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>双三次-BICUBIC</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>双线性-BILINEAR</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>最临近-NEAREST</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>兰索斯-LANCZOS</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="resampleRun">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>70</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Microsoft YaHei</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>运行</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
       <widget class="QWidget" name="imageSelector2">
        <layout class="QVBoxLayout" name="verticalLayout_6">
